@@ -1,0 +1,509 @@
+@font-face {
+    font-family: "InikaRegular";  
+    src: url("../fonts/Inika/Inika-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "InikaBold";  
+    src: url("../fonts/Inika/Inika-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "InterRegular";  
+    src: url("../fonts/Inter/static/Inter-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "InterBold";  
+    src: url("../fonts/Inter/static/Inter-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 700;
+}
+
+*{
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.InikaRegular {
+    font-family: "InikaRegular";
+    font-weight: 400;
+}
+
+.InikaBold {
+    font-family: "InikaBold";
+    font-weight: 700;
+}
+
+.InterRegular {
+    font-family: "InterRegular";
+    font-weight: 400;
+}
+
+.InterBold {
+    font-family: "InterBold";
+    font-weight: 700;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDF2EC;
+    padding: 42px 109px;
+}
+
+.header-logo-link{
+    text-decoration: none;
+    color: #010201;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header-logo-link:hover{
+    color: #E06733;
+}
+
+.header-logo-link:active{
+    color: #010201;
+}
+.header-nav {
+    display: flex;
+}
+.header-nav-link {
+    text-decoration: none;
+    padding-right: 46px;
+    color: #010201;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.header-nav-link:hover {
+    color: #E06733;
+}
+
+.header-nav-link:active {
+    color: #010201;
+}
+
+.header-nav-link:last-child{
+    padding-right: 0;
+}
+
+
+
+
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 109px;
+    background-color: #EDF2EC;
+    align-items: center;
+}
+
+.weclome-img {
+    display: block;
+    max-width: 449px;
+}
+
+.welcome-info {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-info-title {
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    padding-bottom: 42px;
+}
+
+.green {
+    color: #499A18;
+
+}
+
+.welcome-info-txt {
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    padding-bottom: 48px;
+}
+
+.welcom-info-button {
+    display: flex;
+    align-self: flex-start;   
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    padding: 14px 27px;
+    background-color: #EDF2EC;
+}
+
+.welcom-info-button:hover{
+    background-color: #E06733;
+    color: #FFFFFF;
+}
+
+.welcom-info-button:active{
+    background-color: #EDF2EC;
+    color: #000000;
+}
+
+.welcome-info-button-txt {
+    display: block;
+}
+
+
+
+.about{
+    padding: 93px 109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-info {
+    max-width: 605px;
+}
+
+.about-info-title{
+    font-size: 40px;
+    line-height: 52px;
+    color: #E06733;
+    padding-bottom: 40px;
+}
+
+.about-info-red{
+    color: #000;
+}
+
+.about-info-txt {
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+.about-img {
+    display: block;
+    max-width: 464px;
+}
+
+
+.service {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 109px 66px 109px;
+    background-color: #EDF2EC;
+}
+
+.service-content {
+    display: flex;
+    align-items: center;
+}
+
+.service-title {
+    max-width: 400px;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+
+}
+
+.service-button {
+    margin-right: 38px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background-color: #EDF2EC;
+
+}
+
+.service-button:hover {
+    background-color: #E06733;
+}
+
+.service-button:active {
+    background-color: #EDF2EC;
+}
+
+.service-button:last-child{
+    margin-right: 0;
+}
+
+.service-button-txt {
+    display: block;
+    padding: 12px 40px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+
+}
+
+.service-button-txt:hover{
+    color: #FFFFFF;
+}
+
+.service-button-txt:active {
+    color: #E06733;
+}
+
+
+.services {
+    display: flex;
+    padding-top: 90px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 55px;
+
+}
+
+.services-item-img {
+    display: block;
+    max-width: 330px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.services-item-title {
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    padding: 10px 0;
+}
+
+.services-item-txt {
+    color: #717171;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 36px;
+}
+
+
+
+
+.prices{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 109px 115px 109px;
+
+}
+
+.prices-button{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.prices-button-title {
+    font-size: 40px;
+    line-height: 48px;
+
+}
+
+.prices-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 34px 41px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+
+}
+
+.prices-button-item{
+    background: #EDF2EC;
+    border: 1px solid #EDF2EC;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    max-width: 250px;
+    padding: 12px 110px 12px 40px;
+    text-align: left;
+    position: relative;
+}
+
+.prices-button-item::after{
+    display: inline-flex;
+    position: absolute;
+    content: "";
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
+    left: 190px;
+    top: 16px;
+    background-image: url("../images/svg/accordion_btn.svg");
+}
+
+.prices-button-item:last-child {
+    margin-bottom: 0;
+}
+
+.prices-button-info{
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.prices-contactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.prices-contactUs-title{
+    max-width: 452px;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+
+
+}
+
+.prices-contactUs-button{
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin: 50px 0 50px 0;
+}
+
+
+.prices-contactUs-button-info{
+    display: block;
+    color: #E06733;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 12px 30px;
+
+}
+
+.prices-contactUs-button:hover {
+    background-color: #E06733;
+}
+
+.prices-contactUs-button:active {
+    background-color: #EDF2EC;
+}
+
+.prices-contactUs-button-info:hover{
+    color: #FFFFFF;
+}
+
+.prices-contactUs-button-info:active {
+    color: #E06733;
+}
+
+.prices-contactUs-img{
+    display: block;
+    max-width: 152px;
+}
+
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/contact_woman\ 1.png");
+    background-position: 109px bottom;
+    background-repeat: no-repeat;
+    background-color: #EDF2EC;
+    padding: 60px 109px 0 109px;
+    height: 550px;
+    box-sizing: border-box;
+}
+
+.contactUs-title{
+    text-align: center;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+
+}
+
+.contactUs-city{
+    display: flex;
+    align-self: flex-end;
+    background: #D6E7D2;
+    border: 1px solid #D6E7D2;
+    max-width: 450px;
+    text-align: left;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    padding: 5px 226px 5px 20px;
+}
+
+.contactUs-city::after{
+    display: inline-flex;
+    position: absolute;
+    content: "";
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
+    left: 250px;
+    top: 16px;
+    background-image: url("../images/svg/accordion_btn2.svg");
+}
+
+.contactUs-city-info{
+    display: block;
+    letter-spacing: 5%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #717171;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 109px;
+}
+
+.copyright {
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+.rss {
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+
+
+}
+.icon-link {
+    margin-right: 20px;
+}
+
+.icon-link:last-child{
+    margin-right: 0;
+}
+
+.icon{
+    display: block;
+}
